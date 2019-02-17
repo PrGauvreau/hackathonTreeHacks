@@ -1,0 +1,2 @@
+Run python hive/src/hive3.py
+Run yarn start in the messenger/src dirrectory
