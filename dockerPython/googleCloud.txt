@@ -1,0 +1,25 @@
+wget -qO- https://pipelines.puppet.com/download/client | sh
+
+gcloud compute --project \
+    "fractal-hive" ssh --zone \
+    <backend-zone> <backend-name>
+
+    sudo apt-get update
+
+    curl -sL \
+        https://deb.nodesource.com/setup_6.x \
+        | sudo -E bash -
+
+    sudo apt-get install git nodejs
+
+    git clone \
+
+    npm install
+
+    sed -i -e 's/8080/80/g' server.js
+
+    sudo nohup nodejs server.js --be_ip \
+    <backend-internal-ip> --fe_ip \
+    <frontend-internal-ip> &
+
+    exit
